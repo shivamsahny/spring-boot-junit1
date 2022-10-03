@@ -38,6 +38,7 @@ public class BookServiceTest {
 		Assertions.assertNotEquals(null, result);
 		Assertions.assertTrue(result.get(0).getName().endsWith("-b"));
 		Assertions.assertEquals("Learn Java-b", result.get(0).getName());
-		Assertions.assertEquals("abc", );
+	//	Assertions.assertEquals("abc", );
+		// My name is Lakhan
 	}
 }

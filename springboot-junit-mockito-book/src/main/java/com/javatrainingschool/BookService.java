@@ -19,10 +19,6 @@ public class BookService {
 		allBooks.forEach(b -> b.setName(b.getName() + "-b"));
 		return allBooks;
 		
-		public List<Book> getAllBooks1()
-	       { List<Book> allBooks = (List<Book>)
-	      bookRepo.findAll();
-	      allBooks.forEach(b -> b.setAuthor(b.getAuthor() +"-Ritz")); return allBooks; }
-
+		
 }
 }
